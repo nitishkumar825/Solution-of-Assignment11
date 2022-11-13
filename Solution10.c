@@ -22,9 +22,6 @@ int SumOfSeries(int n){
 
 int main() 
 {
-    int n;
-    printf("Find the sum of the series till: ");
-    scanf("%d",&n);
-    printf("\nSum of the series till %d : %d",n,SumOfSeries(n));
+    printf("\nSum of the series 1! /1+2!/2+3!/3+4!/4+5!/5 : %d",SumOfSeries(5));
     return 0;
 }
